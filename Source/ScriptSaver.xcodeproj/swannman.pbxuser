@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8D255AC50486D3F9007BF209 /* ScriptSaver */;
+		addToTargets = (
+			8D255AC50486D3F9007BF209 /* ScriptSaver */,
+		);
+		codeSenseManager = F685E56610668AF500485822 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					824,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					784,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302922012;
+			PBXWorkspaceStateSaveDate = 302922012;
+		};
+		perUserProjectItems = {
+			F697CE64120E2C40000F8068 /* PlistBookmark */ = F697CE64120E2C40000F8068 /* PlistBookmark */;
+			F697CE66120E2C40000F8068 /* PBXTextBookmark */ = F697CE66120E2C40000F8068 /* PBXTextBookmark */;
+			F697CE68120E2C40000F8068 /* PBXTextBookmark */ = F697CE68120E2C40000F8068 /* PBXTextBookmark */;
+			F697CEC6120E33DC000F8068 /* PBXTextBookmark */ = F697CEC6120E33DC000F8068 /* PBXTextBookmark */;
+			F697CEDB120E350A000F8068 /* PBXTextBookmark */ = F697CEDB120E350A000F8068 /* PBXTextBookmark */;
+			F697CEDD120E350A000F8068 /* PlistBookmark */ = F697CEDD120E350A000F8068 /* PlistBookmark */;
+			F6BD41A3120E3A09003A9CB0 /* PBXTextBookmark */ = F6BD41A3120E3A09003A9CB0 /* PBXTextBookmark */;
+			F6BD41A4120E3A09003A9CB0 /* PBXTextBookmark */ = F6BD41A4120E3A09003A9CB0 /* PBXTextBookmark */;
+			F6BD41A5120E3A09003A9CB0 /* PBXTextBookmark */ = F6BD41A5120E3A09003A9CB0 /* PBXTextBookmark */;
+			F6BD41A6120E3A09003A9CB0 /* PBXTextBookmark */ = F6BD41A6120E3A09003A9CB0 /* PBXTextBookmark */;
+			F6BD41A7120E3A09003A9CB0 /* PBXTextBookmark */ = F6BD41A7120E3A09003A9CB0 /* PBXTextBookmark */;
+		};
+		sourceControlManager = F685E56510668AF500485822 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	089C167EFE841241C02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 817}}";
+			sepNavSelRange = "{179, 0}";
+			sepNavVisRange = "{0, 280}";
+		};
+	};
+	32DBCFA80370C50100C91783 /* ScriptSaver_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 567}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 194}";
+		};
+	};
+	8D255AC50486D3F9007BF209 /* ScriptSaver */ = {
+		activeExec = 0;
+	};
+	F50079790118B23001CA0E54 /* ScriptSaverView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 817}}";
+			sepNavSelRange = "{576, 0}";
+			sepNavVisRange = "{0, 749}";
+		};
+	};
+	F500797A0118B23001CA0E54 /* ScriptSaverView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 2613}}";
+			sepNavSelRange = "{3588, 0}";
+			sepNavVisRange = "{2320, 1756}";
+			sepNavWindowFrame = "{{414, 144}, {930, 884}}";
+		};
+	};
+	F685E56510668AF500485822 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F685E56610668AF500485822 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F685E57710668BAC00485822 /* ConfigureWindowController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 817}}";
+			sepNavSelRange = "{775, 0}";
+			sepNavVisRange = "{0, 775}";
+		};
+	};
+	F685E57810668BAC00485822 /* ConfigureWindowController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1002, 3510}}";
+			sepNavSelRange = "{5477, 0}";
+			sepNavVisRange = "{0, 2186}";
+		};
+	};
+	F697CE64120E2C40000F8068 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F697CE65120E2C40000F8068 /* ConfigureWindow.nib */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/swannman/_Build/Debug/ScriptSaver.saver/Contents/Resources/ConfigureWindow.nib;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F697CE65120E2C40000F8068 /* ConfigureWindow.nib */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = file.bplist;
+		name = ConfigureWindow.nib;
+		path = /Users/swannman/_Build/Debug/ScriptSaver.saver/Contents/Resources/ConfigureWindow.nib;
+		sourceTree = "<absolute>";
+	};
+	F697CE66120E2C40000F8068 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F697CE67120E2C40000F8068 /* InfoPlist.strings */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 280;
+		vrLoc = 0;
+	};
+	F697CE67120E2C40000F8068 /* InfoPlist.strings */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.plist.strings;
+		name = InfoPlist.strings;
+		path = /Users/swannman/_Build/Debug/ScriptSaver.saver/Contents/Resources/English.lproj/InfoPlist.strings;
+		sourceTree = "<absolute>";
+	};
+	F697CE68120E2C40000F8068 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32DBCFA80370C50100C91783 /* ScriptSaver_Prefix.pch */;
+		name = "ScriptSaver_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 194;
+		vrLoc = 0;
+	};
+	F697CEC6120E33DC000F8068 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C167EFE841241C02AAC07 /* English */;
+		name = "InfoPlist.strings: 5";
+		rLen = 0;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 280;
+		vrLoc = 0;
+	};
+	F697CEDB120E350A000F8068 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F697CEDC120E350A000F8068 /* NSPanel.h */;
+		name = "NSPanel.h: 61";
+		rLen = 23;
+		rLoc = 3955;
+		rType = 0;
+		vrLen = 3354;
+		vrLoc = 940;
+	};
+	F697CEDC120E350A000F8068 /* NSPanel.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = NSPanel.h;
+		path = /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Versions/C/Headers/NSPanel.h;
+		sourceTree = "<absolute>";
+	};
+	F697CEDD120E350A000F8068 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D255AD20486D3F9007BF209 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleShortVersionString,
+		);
+		name = "/Volumes/RAID Array/Code/ScriptSaver 2.5/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F6BD41A3120E3A09003A9CB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F685E57810668BAC00485822 /* ConfigureWindowController.m */;
+		name = "ConfigureWindowController.m: 144";
+		rLen = 0;
+		rLoc = 5477;
+		rType = 0;
+		vrLen = 2186;
+		vrLoc = 0;
+	};
+	F6BD41A4120E3A09003A9CB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F685E57710668BAC00485822 /* ConfigureWindowController.h */;
+		name = "ConfigureWindowController.h: 30";
+		rLen = 0;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 775;
+		vrLoc = 0;
+	};
+	F6BD41A5120E3A09003A9CB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F50079790118B23001CA0E54 /* ScriptSaverView.h */;
+		name = "ScriptSaverView.h: 27";
+		rLen = 0;
+		rLoc = 576;
+		rType = 0;
+		vrLen = 749;
+		vrLoc = 0;
+	};
+	F6BD41A6120E3A09003A9CB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F500797A0118B23001CA0E54 /* ScriptSaverView.m */;
+		name = "ScriptSaverView.m: 145";
+		rLen = 10;
+		rLoc = 3961;
+		rType = 0;
+		vrLen = 1675;
+		vrLoc = 0;
+	};
+	F6BD41A7120E3A09003A9CB0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F500797A0118B23001CA0E54 /* ScriptSaverView.m */;
+		name = "ScriptSaverView.m: 122";
+		rLen = 0;
+		rLoc = 3588;
+		rType = 0;
+		vrLen = 1756;
+		vrLoc = 2320;
+	};
+}

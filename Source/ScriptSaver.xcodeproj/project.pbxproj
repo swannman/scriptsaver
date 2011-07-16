@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D255AC70486D3F9007BF209 /* ScriptSaver_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* ScriptSaver_Prefix.pch */; };
+		8D255AC80486D3F9007BF209 /* ScriptSaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* ScriptSaverView.h */; };
+		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D255ACC0486D3F9007BF209 /* ScriptSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* ScriptSaverView.m */; };
+		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+		F685E57910668BAC00485822 /* ConfigureWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = F685E57710668BAC00485822 /* ConfigureWindowController.h */; };
+		F685E57A10668BAC00485822 /* ConfigureWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = F685E57810668BAC00485822 /* ConfigureWindowController.m */; };
+		F685E58210668C6200485822 /* ConfigureWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = F685E58110668C6200485822 /* ConfigureWindow.nib */; };
+		F685E5C410668F0500485822 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F685E5C310668F0500485822 /* Quartz.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCFA80370C50100C91783 /* ScriptSaver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptSaver_Prefix.pch; sourceTree = "<group>"; };
+		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D255AD30486D3F9007BF209 /* ScriptSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScriptSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50079790118B23001CA0E54 /* ScriptSaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScriptSaverView.h; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* ScriptSaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScriptSaverView.m; sourceTree = "<group>"; };
+		F685E57710668BAC00485822 /* ConfigureWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureWindowController.h; sourceTree = "<group>"; };
+		F685E57810668BAC00485822 /* ConfigureWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureWindowController.m; sourceTree = "<group>"; };
+		F685E58110668C6200485822 /* ConfigureWindow.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = ConfigureWindow.nib; sourceTree = "<group>"; };
+		F685E5C310668F0500485822 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
+				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
+				F685E5C410668F0500485822 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* ScriptSaver */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA70370C4F300C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = ScriptSaver;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F685E58110668C6200485822 /* ConfigureWindow.nib */,
+				8D255AD20486D3F9007BF209 /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F50079790118B23001CA0E54 /* ScriptSaverView.h */,
+				F500797A0118B23001CA0E54 /* ScriptSaverView.m */,
+				F685E57710668BAC00485822 /* ConfigureWindowController.h */,
+				F685E57810668BAC00485822 /* ConfigureWindowController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+				F685E5C310668F0500485822 /* Quartz.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D255AD30486D3F9007BF209 /* ScriptSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32DBCFA70370C4F300C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCFA80370C50100C91783 /* ScriptSaver_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D255AC60486D3F9007BF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255AC70486D3F9007BF209 /* ScriptSaver_Prefix.pch in Headers */,
+				8D255AC80486D3F9007BF209 /* ScriptSaverView.h in Headers */,
+				F685E57910668BAC00485822 /* ConfigureWindowController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D255AC50486D3F9007BF209 /* ScriptSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "ScriptSaver" */;
+			buildPhases = (
+				8D255AC60486D3F9007BF209 /* Headers */,
+				8D255AC90486D3F9007BF209 /* Resources */,
+				8D255ACB0486D3F9007BF209 /* Sources */,
+				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				8D255AD00486D3F9007BF209 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScriptSaver;
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = ScriptSaver;
+			productReference = 8D255AD30486D3F9007BF209 /* ScriptSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "ScriptSaver" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 089C166AFE841209C02AAC07 /* ScriptSaver */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D255AC50486D3F9007BF209 /* ScriptSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D255AC90486D3F9007BF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
+				F685E58210668C6200485822 /* ConfigureWindow.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D255AD00486D3F9007BF209 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D255ACB0486D3F9007BF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACC0486D3F9007BF209 /* ScriptSaverView.m in Sources */,
+				F685E57A10668BAC00485822 /* ConfigureWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7AD72E08BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ScriptSaver_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = ScriptSaver;
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EF7AD72F08BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ScriptSaver_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = ScriptSaver;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		EF7AD73208BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		EF7AD73308BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "ScriptSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD72E08BB986600CE4634 /* Debug */,
+				EF7AD72F08BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "ScriptSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD73208BB986600CE4634 /* Debug */,
+				EF7AD73308BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
