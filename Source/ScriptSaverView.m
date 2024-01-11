@@ -145,13 +145,11 @@
         if (isQtzSaver)
         {
             [self addSubview:qtzView];
-            [qtzView release];
         }
         else
         {
             [self addSubview:saverInstance];
             [saverInstance startAnimation];
-            [saverInstance release];
         }
     }
 }
@@ -196,9 +194,5 @@
 	return [controller window];
 }
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 @end
