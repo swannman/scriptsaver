@@ -168,9 +168,17 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "ScriptSaver" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+				English,
+			);
 			mainGroup = 089C166AFE841209C02AAC07 /* ScriptSaver */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -229,6 +237,8 @@
 		EF7AD72E08BB986600CE4634 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -237,7 +247,9 @@
 				GCC_PREFIX_HEADER = ScriptSaver_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = ScriptSaver;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = saver;
 				ZERO_LINK = YES;
 			};
@@ -246,13 +258,17 @@
 		EF7AD72F08BB986600CE4634 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ScriptSaver_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = ScriptSaver;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -268,7 +284,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = NO;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -282,7 +298,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PREBINDING = NO;
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

@@ -8,7 +8,6 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 #import "ConfigureWindowController.h"
-#import <QTKit/QTKit.h>
 #import <Quartz/Quartz.h>
 
 @interface ScriptSaverView : ScreenSaverView 
